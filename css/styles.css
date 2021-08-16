@@ -2,3 +2,101 @@
   Color de fondo: hsl(185, 75%, 39%)
   Color del texto gris: hsl(227, 10%, 46%)
  */
+
+body{
+  background-color: hsl(185, 75%, 39%);
+  margin: 0px;
+  font-family: sans-serif;
+  font-family: 1.3rem;
+  overflow: hidden;
+}
+
+.topcircle
+{
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  left: -240px;
+  top: -375px;
+}
+.bottomcircle{
+  position:absolute;
+  width: 700px;
+  height: 700px;
+  bottom: -350px;
+  right: -350px;
+}
+
+.profile__card{
+  position: relative;
+  top: 15vh;
+  margin-right: auto;
+  margin-left: auto;
+  width:400px;
+  height: 425px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.profile__header{
+  position: relative;
+  width: 100%;
+  height: 120px;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+}
+.profile__header-background{
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.profile-image
+{
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  background-color: #fff;
+  top: 90px;
+  left: 150px;
+}
+
+.profile__body
+{
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 200px;
+  border-bottom: 1px solid rgb(0 0 0 / 0.1);
+  
+}
+
+.profile__text{
+  margin: 0px;
+  margin-bottom: 0.5em;
+}
+
+.profile__text--light{
+  color: hsl(227, 10%, 46%)
+}
+
+.profile__number{
+  font-size: 1.3rem;
+}
+
+.profile__footer{
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+}
+
+.profile__stat
+{
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+}
