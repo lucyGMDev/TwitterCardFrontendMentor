@@ -86,6 +86,7 @@ body{
 
 .profile__number{
   font-size: 1.3rem;
+  margin-bottom: 0.5em;
 }
 
 .profile__footer{
